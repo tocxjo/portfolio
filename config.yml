@@ -1,0 +1,207 @@
+baseURL: "https://example.com"
+theme: "terminalcv"
+title: "portfolio"
+
+params:
+  version: '1.0.0'
+  description: "portfolio"
+  prompt:
+    core:
+      text: "tocxjo@lemon"
+      color: 'yellow'
+      before: '['
+      beforeColor: '#00ff00'
+      after: '\]'
+      afterColor: '#00ff00'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: '#00ff00'
+      text: '~/terminalcv'
+      color: 'blue'
+      after: '\]'
+      afterColor: '#00ff00'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+    promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+   ‎ _                   _       
+   | |_ ___   _____  __(_) ___  
+   | __/ _ \ / __\ \/ /| |/ _ \ 
+   | || (_) | (__ >  < | | (_) |
+    \__\___/ \___/_/\_\/ |\___/ 
+                     |__/       
+
+   welcome to my portfolio
+
+   type 'help' for a list of available commands
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "ask me at my email"
+      profession: "student | help desk technician"
+      location: "argentina"
+      email: "tocjo@riseup.net"
+      homelink: "currently wip"
+      description: |
+
+
+              i like learning languages, low-level systems, gnu/linux, c, emacs, music, cybsec, ml, etc.
+
+              currently fixing phones, building websites, and keeping it simple...
+
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/tocxjo"
+    - name: "myspace"
+      url: "https://spacehey.com/tocxjo"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+    - jobTitle: help desk / technician / web dev
+      color: lime
+      company: '.sudo' 
+      location: buenos aires, argentina
+      date: october 2024 - present
+      description: my startup business, where i repair electronics, provide technical support and develop web solutions for clients.
+
+    - jobTitle: ski wear rental
+      color: cyan
+      company: 'pircas / cumbre expediciones'
+      location: mendoza, argentina
+      date: winter 2024
+      description: ski/snow wear rental for a ski park near the aconcagua
+
+  education:
+    details:
+    - courseName: computer engineering
+      color: yellow
+      date: february 2025 - ~2030
+      description: degree at UNTREF focused on low-level systems, machine learning, embedded systems, etc.
+
+    - courseName: nand2tetris
+      color: blue
+      description: project-centered course where i've learned computational logic, systems, chips, electronics, hdl, assembly, etc.
+
+    - courseName: graphic design
+      color: magenta
+      description: coreldraw & photoshop course at globalt, where i created logos, flyers and visual materials with both programs.
+
+    - courseName: video editing
+      color: purple
+      description: after effects course at globalt, where i edited and created some videos using that program.
+
+  skills:
+    # settings:
+    #   useLess: true
+    details:
+    - name: coding
+      color: cyan
+      percentage: 70
+
+    - name: scripting
+      color: orange
+      percentage: 80
+      description: i love scripting
+
+    - name: adobe creative suite
+      color: magenta
+      percentage: 90 
+      description: used it since i was a kid
+
+    - name: gnu/linux
+      color: yellow
+      percentage: 90 
+      description: used it since i was 14 
+
+  softskills:
+    # settings:
+    #   useLess: true
+    details:
+    - name: emacs
+      color: purple
+      percentage: 80 
+      description: ok i kinda love this editor
+
+    - name: fl studio
+      color: orange
+      percentage: 70
+      description: yeah i like to make music too
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+    - name: spanish
+      color: yellow
+      percentage: 100
+      description: first language
+
+    - name: english
+      color: blue
+      percentage: 90
+      description: i can speak it but still insecure about it
+
+    - name: portuguese
+      color: lime
+      percentage: 60
+      description: i'm conversational but not fluent enough
+
+    - name: japanese
+      color: red
+      percentage: 40
+      description: did AJATT for ~200 days, can understand it but not fluent enough either
+
+
+
+  projects:
+    # settings:
+    #   useLess: true
+    details:
+    - title: bittorrent client in c
+      color: cyan
+      date: someday
+    # link: https://example.com
+
+    - title: r-markdown-mode
+      color: orange
+      date: someday
+    # link: https://example.com/blue
+      description: r-markdown support package for emacs
+
+    - title: vident(?
+      color: red
+      date: someday
+    # link: https://example.com/blue
+      description: browser extension to seed youtube videos to keep them archived in the future
+
+    - title: folder organizer
+      color: magenta
+      date: someday
+    # link: https://example.com/blue
+      description: script to organize my downloads folder
+
+  misc: 
+    # settings:
+    #   useLess: true
