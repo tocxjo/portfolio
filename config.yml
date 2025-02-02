@@ -196,11 +196,11 @@ params:
     # link: https://example.com/blue
       description: browser extension to seed youtube videos to keep them archived in the future
 
-    - title: folder organizer
+    - title: dl-organizer
       color: magenta
-      date: someday
-    # link: https://example.com/blue
-      description: script to organize my downloads folder
+      date: 2/2/25
+      link: https://gist.github.com/tocxjo/7d438e5479158c0903bc99d2662ee6a1
+      description: windows batch script to organize my downloads folder
 
   misc: 
     # settings:
