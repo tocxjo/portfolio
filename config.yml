@@ -125,6 +125,11 @@ params:
       percentage: 80
       description: i love scripting
 
+    - name: emacs
+      color: purple
+      percentage: 80 
+      description: best text editor
+
     - name: adobe creative suite
       color: magenta
       percentage: 90 
@@ -135,19 +140,31 @@ params:
       percentage: 90 
       description: used it since i was 14 
 
+    - name: fl studio
+      color: orange
+      percentage: 65
+      description: yeah i like to make music too
+
   softskills:
     # settings:
     #   useLess: true
     details:
-    - name: emacs
-      color: purple
-      percentage: 80 
-      description: ok i kinda love this editor
+    - name: teamwork
+      color: lime
+      percentage: 80
 
-    - name: fl studio
-      color: orange
+    - name: leadership
+      color: lime
       percentage: 70
-      description: yeah i like to make music too
+
+    - name: creativity
+      color: lime
+      percentage: 70
+
+    - name: problem-solving
+      color: lime
+      percentage: 80
+
 
   languages:
     # settings:
