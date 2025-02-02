@@ -150,15 +150,15 @@ params:
     #   useLess: true
     details:
     - name: teamwork
-      color: lime
+      color: blue
       percentage: 80
 
     - name: leadership
-      color: lime
+      color: red
       percentage: 70
 
     - name: creativity
-      color: lime
+      color: magenta
       percentage: 70
 
     - name: problem-solving
